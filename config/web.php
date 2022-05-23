@@ -20,6 +20,10 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'pcache' => [
+            'class' => 'yii\caching\FileCache',
+            'keyPrefix' => 'pcache',
+        ],
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
